@@ -34,11 +34,23 @@
 </head>
 <body>
 	<div class="menu">
-		<button class="menu-btn">메뉴</button>
+		<button class="menu-btn" onclick="toggleMenu()">메뉴</button>
+		<div class="menu-content" id="menuContent">
+			<a href="#">메뉴 1</a>
+			<a href="#">메뉴 2</a>
+			<a href="#">메뉴 3</a>
+		</div>
 	</div>
 	<div class="content">
 		<p>내용이 들어갑니다.</p>
 	</div>
+	
+	<script>
+		function toggleMenu() {
+			var menuContent = document.getElementById("menuContent");
+			menuContent.classList.toggle("show");
+		}
+	</script>
 	
 	<h1>Croissant</h1>
 	<h1>Federighi</h1>
