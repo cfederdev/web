@@ -31,14 +31,6 @@ body {
 	margin-top: 50px;
 	padding: 10px;
 }
-
-.menu {
-	position: fixed;
-	top: 0;
-	right: 0;
-	padding: 10px;
-	background-color: #eb0909;
-  }
   
   .menu-btn {
 	width: 50px;
