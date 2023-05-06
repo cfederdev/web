@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Hello, CSS!</title>
-  <style>
-    h1 {
-      color: red;
-    }
-  </style>
+	<meta charset="UTF-8">
+	<title>나의 개인 웹페이지</title>
+	<style>
+		body {
+			background-color: #f7f7f7;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		.navbar {
+			background-color: #555;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		.content {
+			padding: 20px;
+			text-align: center;
+		}
+		.footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-  <h1>Hello</h1>
+	<header class="header">
+		<h1>개인 웹페이지</h1>
+	</header>
+	<nav class="navbar">
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Projects</a>
+		<a href="#">Contact</a>
+	</nav>
+	<div class="content">
+		<h2>안녕하세요, 반갑습니다.</h2>
+		<p>웹사이트 테스트 입니다.</p>
+		<h3>나의 프로젝트</h3>
+		<ul>
+			<li><a href="#">프로젝트 1</a></li>
+			<li><a href="#">프로젝트 2</a></li>
+			<li><a href="#">프로젝트 3</a></li>
+		</ul>
+	</div>
+	<footer class="footer">
+		<p>&copy; 2023. 모든 권리 보유.</p>
+	</footer>
 </body>
 </html>
