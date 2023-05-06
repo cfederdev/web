@@ -63,7 +63,7 @@ body {
   }
   
   .menu-content a:hover {
-	background-color: #ddd;
+	background-color: #d30000;
   }
   
   .menu-btn:hover + .menu-content {
