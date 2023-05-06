@@ -18,6 +18,30 @@ body {
 	cursor: pointer;
 }
 
+.menu-content {
+	display: none;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+
+.menu-content.show {
+	display: block;
+}
+
+.menu-content a {
+	display: block;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #333;
+}
+
+.menu-content a:hover {
+	background-color: #ddd;
+}
+
 .content {
 	margin-top: 50px;
 	padding: 10px;
