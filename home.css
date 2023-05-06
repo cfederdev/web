@@ -47,7 +47,7 @@ body {
 	position: absolute;
 	top: 50px;
 	right: 0;
-	background-color: #f1f1f1;
+	background-color: #690e0e;
 	padding: 10px;
   }
   
@@ -60,10 +60,6 @@ body {
 	padding: 5px 10px;
 	text-decoration: none;
 	color: #333;
-  }
-  
-  .menu-content a:hover {
-	background-color: #d30000;
   }
   
   .menu-btn:hover + .menu-content {
